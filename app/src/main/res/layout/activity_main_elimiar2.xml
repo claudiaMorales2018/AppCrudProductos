@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@android:color/holo_green_light">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Eliminar Producto"
+        android:textSize="35sp"
+        android:layout_gravity="center"
+        android:layout_margin="15sp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <EditText
+            android:id="@+id/edtBuscarProductoEliminar"
+            android:layout_width="300sp"
+            android:layout_height="wrap_content"
+            android:hint="Ingrese ID a Eliminar"
+            android:textSize="25sp"
+            />
+        <ImageView
+            android:id="@+id/imgBuscarEliminar"
+            android:layout_width="50sp"
+            android:layout_height="50sp"
+            android:src="@drawable/buscarproyecto"
+            android:layout_gravity="center"
+            android:layout_marginLeft="25sp"
+            android:onClick="onClick"
+            />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/txtNombreProductoEliminar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="35sp"
+        android:textColor="#960016"
+        android:text="..."
+        android:layout_margin="15sp"
+        />
+    <TextView
+        android:id="@+id/txtDescripcionProductoEliminar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="35sp"
+        android:textColor="#960016"
+        android:text="..."
+        android:layout_margin="15sp"
+        />
+    <TextView
+        android:id="@+id/txtValorProductoEliminar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="35sp"
+        android:textColor="#960016"
+        android:text="..."
+        android:layout_margin="15sp"
+        />
+    <TextView
+        android:id="@+id/txtEstadoProductoEliminar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="35sp"
+        android:textColor="#960016"
+        android:text="..."
+        android:layout_margin="15sp"
+        />
+    <Button
+        android:id="@+id/btnEliminarProducto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#960016"
+        android:text="Eliminar Cliente"
+        android:textSize="25sp"
+        android:layout_margin="15sp"
+        android:elevation="5sp"
+        android:onClick="OnClick"
+        />
+
+
+
+
+
+</LinearLayout>

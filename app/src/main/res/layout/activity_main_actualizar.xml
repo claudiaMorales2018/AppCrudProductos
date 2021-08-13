@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivityActualizar"
+    android:orientation="vertical"
+    android:background="@android:color/holo_green_light"
+    >
+
+
+        <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Actualizar Producto"
+        android:textSize="35sp"
+        android:layout_gravity="center"
+        android:layout_margin="15sp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <EditText
+            android:id="@+id/edtBuscarProductoActualizar"
+            android:layout_width="300sp"
+            android:layout_height="wrap_content"
+            android:hint="Ingrese ID a Producto"
+            android:textSize="25sp"
+            />
+        <ImageView
+            android:id="@+id/imgBuscarActualizar"
+            android:layout_width="50sp"
+            android:layout_height="50sp"
+            android:src="@drawable/buscarproyecto"
+            android:layout_gravity="center"
+            android:layout_marginLeft="25sp"
+            android:onClick="onClick"
+            />
+    </LinearLayout>
+    <EditText
+        android:id="@+id/edtNombreProductoActualizar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15sp"
+        android:hint="..."
+        android:textSize="25sp"
+        />
+    <EditText
+        android:id="@+id/edtDescripcionProductoActualizar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15sp"
+        android:hint="..."
+        android:textSize="25sp"
+        />
+    <EditText
+        android:id="@+id/edtValorProductoActualizar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15sp"
+        android:hint="..."
+        android:textSize="25sp"
+        android:inputType="number"
+        />
+    <EditText
+        android:id="@+id/edtEstadoProductoActualizar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15sp"
+        android:hint="..."
+        android:textSize="25sp"
+        />
+    <Button
+        android:id="@+id/btnActualizarProducto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#960016"
+        android:text="Actualizar Producto"
+        android:textSize="25sp"
+        android:layout_margin="15sp"
+        android:elevation="5sp"
+        android:onClick="onClick"
+        />
+
+</LinearLayout>
